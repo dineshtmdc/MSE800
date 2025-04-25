@@ -12,7 +12,7 @@ def factorial(n):
         result = 1
         # Loop from 1 to n (inclusive)
         for i in range(1, n + 1):
-            result *= i # Multiply result by the current number
+            result = result * i # Multiply result by the current number
         return result
 
 print(f'factorial -3! :{factorial(-3)}')
