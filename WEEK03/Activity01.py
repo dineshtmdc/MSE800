@@ -15,8 +15,9 @@ def factorial(n):
             result = result * i # Multiply result by the current number
         return result
 
+## test for -3
 print(f'factorial -3! :{factorial(-3)}')
-
+## test for 0
 print(f'factorial 0 :{factorial(0)}')
-
+## test for 4
 print(f'factorial 4! :{factorial(4)}')
