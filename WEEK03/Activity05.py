@@ -1,6 +1,7 @@
 
 class Factorial :
 
+   @staticmethod
    def factorial(n):
 
     # Check if the input number is negative
@@ -16,3 +17,11 @@ class Factorial :
         for i in range(1, n + 1):
             result = result * i # Multiply result by the current number
         return result
+
+# test for 2 
+factorial  = Factorial.factorial(2)
+print(factorial)
+
+# test for 5 
+factorial  = Factorial.factorial(5)
+print(factorial)
