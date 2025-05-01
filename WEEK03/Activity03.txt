@@ -1,0 +1,12 @@
+## How many functions are available if you want to do the attendance automation in our class?
+## Write the title and functionality of each function.
+'''
+1. detectFace() -->	Captures and identifies student faces via webcam/CCTV
+2. registerStudent() --> Adds new student information to the system (e.g., name, ID, photo, RFID tag, etc.).
+3. markAttendance()	--> Records attendance automatically when a student scans, logs in, or is recognized.
+4. getAttendanceByDate() -->	Retrieves attendance records for a specific date.
+5. getAttendanceByStudent() -->	Shows attendance history for a specific student.
+6. generateAttendanceReport() -->	exports attendance reports (e.g., PDF/Excel) for class or individual students.
+
+'''
+

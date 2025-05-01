@@ -1,0 +1,6 @@
+
+## How many classes can you define for automated attendance checking? & Why? describe it in short.
+
+1. Student -->	Stores student details (ID, name, photo, RFID, etc.)
+2. AttendanceRecord -->	Represents attendance entries (student ID, date, time, status)
+3. AttendanceSystem	--> Central controller class with logic to mark, view, and manage attendance
