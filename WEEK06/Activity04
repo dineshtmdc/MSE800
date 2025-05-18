@@ -1,0 +1,4 @@
+x, _, y = (1, "ingnore",3)
+
+print(x,y)
+

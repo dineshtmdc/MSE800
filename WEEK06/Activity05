@@ -1,0 +1,12 @@
+names = ['Alice', 'Bob', 'Cathy']
+ages = [25, 30, 35]
+
+paired = zip(names, ages)
+print(paired)
+
+ids = [1, 2, 3]
+names = ['Alice', 'Bob', 'Cathy', 'Mike']
+grades = ['A', 'B', 'A+' 'A']
+
+
+

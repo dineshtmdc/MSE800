@@ -35,9 +35,6 @@ def main():
             user_id = int(input("Enter user ID to delete: "))
             delete_user(user_id)
         elif choice == '5':
-            print("Goodbye!")
-            break
-        elif choice == '6':
             user_id = input("Enter user ID to advance search: ")
             name = input("Enter name to advance search:")
             users = advance_search_user(user_id, name)

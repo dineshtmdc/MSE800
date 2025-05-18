@@ -1,0 +1,11 @@
+
+def create_multiplier(i):
+    def multiplier(a):
+        return i * a
+    return multiplier
+
+data = []
+for i in range(5):
+    data.append(create_multiplier(i * 2))
+
+print(create_multiplier(1 * 2))

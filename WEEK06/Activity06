@@ -1,0 +1,18 @@
+ids = [1, 2, 3]
+names = ['Alice', 'Bob', 'Cathy', 'Mike']
+grades = ['A', 'B', 'A+' 'A']
+
+student_info = {ids[i]: names[i] + ' - ' + grades[i] for i in range(len(ids))}
+
+#print(student_info)
+
+
+students = list(map(list, zip(ids, names, grades)))
+#print(students)
+
+data = []
+
+for i in range(5):
+    data.append(lambda a, i=i*2: i*a)
+
+data[4]
