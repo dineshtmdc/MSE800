@@ -24,3 +24,4 @@ print("\nCat says:")
 my_cat = Cat()
 my_cat.speak()   # Inherited from Animal
 my_cat.meow()    # Defined in Cat
+# my_cat.brak()   # we can't call brak methon through the cat instance
